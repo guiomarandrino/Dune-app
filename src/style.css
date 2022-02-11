@@ -1,0 +1,88 @@
+:root {
+  --font: "Lucida Console", monospace;
+}
+
+body {
+  background: radial-gradient(
+    859px at 10% 20%,
+    rgb(245, 220, 154) 0%,
+    rgb(164, 78, 51) 90%
+  );
+}
+
+.dune-app-wrapper {
+  border: 2px solid #290001;
+  border-radius: 5px;
+  max-width: 150px 150px;
+  margin: 20px;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 45px;
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 40px;
+  color: #290001;
+  padding: 5px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+p {
+  font-family: var(--font);
+  font-size: 15px;
+  padding: 30px 30px;
+  color: black;
+}
+
+img {
+  display: block;
+  border: 10px solid #581c0c;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+li {
+  display: block;
+  font-size: 20px;
+  font-family: var(--font);
+  margin: 0 15px;
+  padding: 25px;
+}
+
+#discover-more a {
+  color: #4e4e6a;
+  padding: 3px 5px;
+  font-size: 15px;
+  font-family: var(--font);
+  text-decoration: none;
+}
+
+div {
+  display: block;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+  font-size: 20px;
+}
+
+h4 {
+  display: block;
+  text-align: center;
+}
+
+.d-flex {
+  justify-content: space-evenly;
+}

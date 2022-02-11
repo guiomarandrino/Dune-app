@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dune</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="dune-app-wrapper">
+    <h1>Dune</h1>
+    <p>
+      Set on the desert planet <strong>Arrakis</strong>, Dune is the story of
+      the boy <strong>Paul Atreides</strong>, heir to a noble family tasked with
+      ruling an inhospitable world where the only thing of value is the
+      <em>“spice” melange</em>, a drug capable of extending life and enhancing
+      consciousness. Coveted across the known universe, melange is a prize worth
+      killing for...<br />When House Atreides is betrayed, the destruction of
+      Paul’s family will set the boy on a journey toward a destiny greater than
+      he could ever have imagined. And as he evolves into the mysterious man
+      known as Muad’Dib, he will bring to fruition humankind’s most ancient and
+      unattainable dream.<br />A stunning blend of adventure and mysticism,
+      environmentalism and politics, Dune won the first Nebula Award, shared the
+      Hugo Award, and formed the basis of what is undoubtedly the grandest epic
+      in science fiction.
+    </p>
+    <hr />
+    <div class="row">
+      <div class="col-md-6">
+        <div class="title">Book (1965)<br />Author: Frank Herbert</div>
+        <img
+          class="img-fluid rounded"
+          src="https://images-na.ssl-images-amazon.com/images/I/41kbwTbXIQL._SX277_BO1,204,203,200_.jpg"
+          width="100"
+          alt="Dune book cover"
+        />
+      </div>
+  
+      <div class="col-md-6">
+        <div class="title">Movie (2021)<br />Director: Dennis Villeneuve</div>
+        <img
+          class="img-fluid rounded"
+          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dune-poster-legendary-fotogramas-1628530373.jpg?resize=768:*"
+          width="100"
+          alt="Dune movie poster"
+        />
+        </div>
+      </div>
+    <a href="#" id="discover-more" class="d-block border-2 shadow-sm">Discover more</a>
+    <div>
+      <a href="https://www.youtube.com/watch?v=8g18jFHCLXk" target="_blank"
+        >Watch movie trailer
+      </a>
+    </div>
+    <div>
+      <a
+        href="https://www.amazon.com/-/es/Frank-Herbert-Mercado-Paperback-Nueva/dp/0441172717"
+        target="_blank"
+        >Buy book</a
+      >
+    </div>
+    <div>Coded by Guiomar Andrino</div>
+    </div>
+    </div>
+    </div>
+
+    <script>
+      function discover() {
+        let answer = prompt("Have you read the book?");
+        if (answer === "Yes") {
+          alert("You can watch the movie trailer");
+        } else {
+          alert("You can buy the book on the following link");
+        }
+      }
+      let discoverButton = document.querySelector("#discover-more");
+      discoverButton.addEventListener("click", discover);
+    </script>
+
+  </body>
+</html>
